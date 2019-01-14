@@ -24,7 +24,7 @@ export class SpaceAge {
   }
 
   calculatePlanetYears(planetName) {
-    return +((this.yearsOnEarth * PLANET_YEAR_RATIO[planetName]).toFixed(2));
+    return +((this.yearsOnEarth / PLANET_YEAR_RATIO[planetName]).toFixed(2));
   }
 
   onMercury() {
