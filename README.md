@@ -1,2 +1,2 @@
-# exercism
-my exercism solutions
+# Exercism
+Nuff said
